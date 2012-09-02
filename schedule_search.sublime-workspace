@@ -1,0 +1,219 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mat",
+				"matchingCourses"
+			],
+			[
+				"des",
+				"doesntContainSet"
+			],
+			[
+				"match",
+				"matchingCourses"
+			],
+			[
+				"uuid",
+				"uuidGenerator"
+			],
+			[
+				"matchin",
+				"matchingCourses"
+			],
+			[
+				"secon",
+				"secondCourse"
+			],
+			[
+				"end",
+				"endTime"
+			],
+			[
+				"split",
+				"splitTime"
+			],
+			[
+				"cours",
+				"courseLink"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/aevin/Projects/schedule_search/app/assets/javascripts/application.js",
+		"/Users/aevin/Projects/schedule_search_ruby/Gemfile",
+		"/Users/aevin/Projects/funnies/Gemfile",
+		"/Users/aevin/Projects/funnies/app/controllers/application_controller.rb",
+		"/Users/aevin/Projects/funnies/app/helpers/users_helper.rb",
+		"/Users/aevin/Projects/funnies/config/application.rb",
+		"/Users/aevin/Projects/funnies/app/controllers/comics_controller.rb",
+		"/Users/aevin/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/aevin/Projects/schedule_search/config/routes.rb",
+		"/Users/aevin/Projects/schedule_search_ruby/schedule_search.rb",
+		"/Users/aevin/Projects/funnies/app/models/user.rb",
+		"/Users/aevin/Projects/schedule_search/app/views/search_set/new.html.haml",
+		"/Users/aevin/Projects/schedule_search/Gemfile",
+		"/Users/aevin/Projects/schedule_search/app/models/course.rb",
+		"/Users/aevin/Projects/schedule_search/app/models/search.rb",
+		"/Users/aevin/Projects/schedule_search/app/controllers/search_set_controller.rb",
+		"/Users/aevin/Projects/schedule_search/config/application.rb",
+		"/Users/aevin/Projects/schedule_search/app/models/search_set.rb",
+		"/Users/aevin/Projects/schedule_search/app/controllers/searches_controller.rb",
+		"/Users/aevin/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/aevin/Projects/schedule_search/app/views/layouts/application.html.erb",
+		"/Users/aevin/Projects/funnies/app/models/comic_strip.rb",
+		"/Users/aevin/Projects/schedule_search/db/migrate/20120823210741_create_searches.rb",
+		"/Users/aevin/Projects/schedule_search/db/migrate/20120823212740_create_search_sets.rb",
+		"/Users/aevin/Projects/schedule_search/db/migrate/20120823213129_add_search_set_to_searches.rb"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/aevin/Projects/funnies"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"assets",
+			"assets.paths",
+			"\"script",
+			"script\"",
+			"/script",
+			"\"script\"",
+			"\"script",
+			"stylesheets",
+			"usershelper",
+			"gravatar_for",
+			"controller_class",
+			"authenticate",
+			"before_filter :authenticate_user",
+			"before_filter :authenticate_user!",
+			"user_signed_in",
+			"\\t",
+			"].text",
+			"fields[",
+			"field[",
+			"row["
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"    ",
+			")",
+			"getField(fields, ",
+			"fields[",
+			"field["
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}

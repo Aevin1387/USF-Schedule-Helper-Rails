@@ -1,4 +1,16 @@
 ScheduleSearch::Application.routes.draw do
+  get "searches/new"
+
+  get "searches/create"
+
+  get "searches/show"
+
+  get "searches/edit"
+
+  get "searches/update"
+
+  get "searches/destroy"
+
   get "home/index"
 
   devise_for :users

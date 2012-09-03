@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120903045913) do
+ActiveRecord::Schema.define(:version => 20120903051925) do
 
   create_table "search_sets", :force => true do |t|
     t.string   "name"
@@ -21,6 +21,11 @@ ActiveRecord::Schema.define(:version => 20120903045913) do
   end
 
   add_index "search_sets", ["user_id"], :name => "index_search_sets_on_user_id"
+
+  create_table "search_sets_searches", :id => false, :force => true do |t|
+    t.integer "search_id"
+    t.integer "search_set_id"
+  end
 
   create_table "searches", :force => true do |t|
     t.string   "name"

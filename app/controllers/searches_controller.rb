@@ -1,4 +1,7 @@
 class SearchesController < ApplicationController
+  before_filter :authenticate_user!
+  respond_to :html
+
   def new
   end
 
@@ -15,5 +18,8 @@ class SearchesController < ApplicationController
   end
 
   def destroy
+  end
+
+  def index
   end
 end

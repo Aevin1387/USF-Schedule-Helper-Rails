@@ -1,0 +1,4 @@
+
+= simple_form_for @searchSet do |f|
+  = f.input :name, label: "Search Set Name"
+  = f.association :searches, collection: @searches, as: :check_boxes

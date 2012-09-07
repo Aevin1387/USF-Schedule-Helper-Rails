@@ -1,0 +1,8 @@
+- if(@searchSets.any?)
+  - @searchSets.each do |searchSet|
+    %h3= link_to searchSet.name, search_set_path(searchSet)
+    %ul
+    - if(searchSet.searches.any?)
+      - searchSet.searches.each do |searchItem|
+        %li= searchItem.name
+= button_to "Create search set", new_search_set_path, method: :get

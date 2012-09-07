@@ -1,21 +1,15 @@
 ScheduleSearch::Application.routes.draw do
-  get "searches/new"
 
-  get "searches/create"
+  devise_for :users do
+    resources :search_sets
+    resources :searches
 
-  get "searches/show"
-
-  get "searches/edit"
-
-  get "searches/update"
-
-  get "searches/destroy"
+    match 'search_sets/submit/:id' => 'search_sets#submit', via: [:post],
+    as: :submit_search_set 
+  end
 
   get "home/index"
-
-  devise_for :users
-
-  root to: 'home#index'
+  root to:"home#index"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

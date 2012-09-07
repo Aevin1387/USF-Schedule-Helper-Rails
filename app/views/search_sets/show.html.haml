@@ -1,0 +1,5 @@
+%h3= @searchSet.name
+- if(@searches.any?)
+  - @searches.each do |search|
+    = link_to search.name, edit_search_path(search)
+  = button_to "Submit", submit_search_set_path(@searchSet), method: :post
